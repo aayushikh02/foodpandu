@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+}
+
+.filters {
+  background-color: #343a40;
+  padding: 1em;
+  display: flex;
+}
+
+.filters button {
+  color: white;
+}
+
+.cards-body {
+  padding: 3em;
+}
+
+.card-text {
+  padding: 0.5em;
+}
+
+.product-rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  background-color: #ea5b31;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.align-center {
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+}
