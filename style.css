@@ -1,11 +1,18 @@
 body {
   min-height: 100vh;
+  background: whitesmoke !important;
+}
+
+.body-section {
+  background: white;
+  padding-top: 15px !important;
 }
 
 .filters {
   background-color: #343a40;
   padding: 1em;
   display: flex;
+  margin-top: 2em;
 }
 
 .filters button {
@@ -14,6 +21,9 @@ body {
 
 .cards-body {
   padding: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
 }
 
 .card-text {
@@ -30,6 +40,20 @@ body {
   bottom: 0;
   position: fixed;
   width: 100%;
+}
+
+.navbar-section {
+  background-color: #ea5b31;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.nav-div {
+  /* margin-left: 0px !important; */
+  /* margin-right: 0px !important; */
+  display: flex;
 }
 
 .align-center {
