@@ -7,11 +7,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="style.js"></script>
+    <script src="style.js">
+    </script>
 </head>
 
 <body>
 
+    <script>
+        alert("This alert box was called with the onload event");
+        let x = document.getElementById("demo1");
+        x.innerHTML = "hellloooo";
+    </script>
     <!-- Navbar -->
 
     <section class="navbar-section ">
@@ -25,7 +31,7 @@
         </div>
     </section>
 
-
+    <div id="demo1"></div>
 
     <section class="body-section container">
 
